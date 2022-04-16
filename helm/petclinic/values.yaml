@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: initsixcloud/petclinic
+  repository: Chinweoke18/java-app-deployment
   tag: latest
   pullPolicy: IfNotPresent
 
