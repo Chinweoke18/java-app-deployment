@@ -5,6 +5,8 @@ pipeline {
             steps {           
                         sh 'pwd'
                         sh 'aws sts get-caller-identity'
+                        sh 'export AWS_PROFILE="clusteradmin'
+                        sh 'aws sts get-caller-identity'
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
